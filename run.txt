@@ -1,0 +1,15 @@
+Overview:
+   Pytorch code of our recent work "Joint Graph Attention and Asymmetric Convolutional Neural Network for Deep Image Compression".
+
+Requirements:
+   Ubuntu 18.04
+   Pytorch 1.4.0
+   Python 3.8.0
+   cuda11.1 + cuDNN v8.0.4 
+
+Training：
+   python train.py --M 192/320(for lower/higher-rate models) --N2 128 --lambda the trade-off parameter, please refer to the settings in the paper --lr_coding 1e-4 --lr_entropy 1e-4 --out_dir the output path of the training log --steps 0 --val the path of validation dataset(This paper uses the kodak dataset as the validation dataset.)
+
+Testing:
+   Python inference_rd_fast.py --input input images --output output bin(encode)/image(decode) --model_dir directory containing trained models --model model index
+
