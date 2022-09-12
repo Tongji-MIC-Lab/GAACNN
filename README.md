@@ -26,7 +26,7 @@ The structure of ACNN is shown in Fig. 2, the asymmetric block is composed of th
 In addition, we flexibly combine the channel attention and the spatial attention by linearly weighting the channel-level relationship and the positional information. The channel and spatial attention mechanisms are shown in Fig. 3(a) and Fig. 3(b), respectively.
 
 <p align="center">
-<image src="source/Fig3-1.jpeg" width="350">&emsp;<image src="source/Fig3-2.jpeg" width="350">
+<image src="source/fig3-1.jpeg" width="350">&emsp;<image src="source/fig3-2.jpeg" width="350">
 <br/><font>(a) Channel attention</font>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <font>(b) Spatial attention</font>
@@ -38,7 +38,7 @@ In addition, we flexibly combine the channel attention and the spatial attention
 To evaluate the effectiveness of the proposed method, GAACNN is compared with four well-known image compression standards, including JPEG, JPEG2000, BPG as well as VTM, and recent deep image compression models, including the works of Chen *et al.*, Hu *et al.*, Li *et al.*, Li *et al.*, Lee *et al*., Minnen *et al*., Ball´e *et al*., Qian *et al.*, Lu *et al*. and Jia *et al.* The rate-distortion performances of the competing approaches on the Kodak and Tecnick datasets are shown in Fig. 4 and Fig. 5, respectively.
 
 <p align="center">
-<image src="source/Fig4-1.jpeg" width="300">&emsp;<image src="source/Fig4-2.jpeg" width="300">
+<image src="source/fig4-1.jpeg" width="300">&emsp;<image src="source/fig4-2.jpeg" width="300">
 <br/><font>(a) Distortion measured by PSNR</font>
 &emsp;&emsp;&emsp;&emsp;&emsp;
 <font>(b) Distortion measured by MS-SSIM</font>
@@ -46,7 +46,7 @@ To evaluate the effectiveness of the proposed method, GAACNN is compared with fo
 </p>
 
 <p align="center">
-<image src="source/Fig5-1.jpeg" width="300">&emsp;<image src="source/Fig5-2.jpeg" width="300">
+<image src="source/fig5-1.jpeg" width="300">&emsp;<image src="source/fig5-2.jpeg" width="300">
 <br/><font>(a) Distortion measured by PSNR</font>
 &emsp;&emsp;&emsp;&emsp;&emsp;
 <font>(b) Distortion measured by MS-SSIM</font>
@@ -57,13 +57,13 @@ To evaluate the effectiveness of the proposed method, GAACNN is compared with fo
 Moreover, Table I and Table II list the BD-rate, BDPSNR and BD-MSSSIM results of GAACNN and other competing compression schemes compared to the JPEG anchor on the Tecnick and Kodak datasets, respectively.
 
 <p align="center">
-<font>Table 1 BD-rate, BD-PSNR and BD-MSSSIM results of GAACNN and other competing compression schemes when compared with JPEG on the Tecnick dataset. The best result in each column is highlighted</font><br/>
-<image src="source/fig6.png" width="580">
+<font>Table I BD-rate, BD-PSNR and BD-MSSSIM results of GAACNN and other competing compression schemes when compared with JPEG on the Tecnick dataset. The best result in each column is highlighted</font><br/>
+<image src="source/fig6.png" width="500">
 </p>
 
 <p align="center">
-<font>Table 2 BD-rate, BD-PSNR and BD-MSSSIM results of GAACNN and other competing compression schemes when compared with JPEG on the Kodak dataset. The best result in each column is highlighted</font><br/>
-<image src="source/fig7.png" width="580">
+<font>Table II BD-rate, BD-PSNR and BD-MSSSIM results of GAACNN and other competing compression schemes when compared with JPEG on the Kodak dataset. The best result in each column is highlighted</font><br/>
+<image src="source/fig7.png" width="500">
 </p>
 
 
