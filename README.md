@@ -72,3 +72,4 @@ Moreover, Table I and Table II list the BD-rate, BDPSNR and BD-MSSSIM results of
 Please cite the following paper if you use the code or feel it useful:
 
 Zhisen Tang, Hanli Wang, Xiaokai Yi, Yun Zhang, Sam Kwong and C.-C. Jay Kuo. Joint Graph Attention and Asymmetric Convolutional Neural Network for Deep Image Compression, IEEE Transactions on Circuits and Systems for Video Technology, accepted, 2022.
+
