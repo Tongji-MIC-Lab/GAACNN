@@ -69,7 +69,7 @@ Moreover, Table I and Table II list the BD-rate, BDPSNR and BD-MSSSIM results of
 
 ### Acknowledgement:
 
-Codebase from<a href="https://github.com/NJUVISION/NIC">NIC</a> , <a href="https://github.com/zs-zhong/CVQN">CVQN</a>, <a href="https://github.com/Andrew-Qibin/CoordAttention">CoordAttention</a> and <a href="https://github.com/Diego999/pyGAT">pyGAT</a>.  The code under GAACNN/Util/AE/ is derived from NIC.
+Codebase from <a href="https://github.com/NJUVISION/NIC">NIC</a> , <a href="https://github.com/zs-zhong/CVQN">CVQN</a>, <a href="https://github.com/Andrew-Qibin/CoordAttention">CoordAttention</a> and <a href="https://github.com/Diego999/pyGAT">pyGAT</a>.  The code under GAACNN/Util/AE/ is derived from <a href="https://github.com/NJUVISION/NIC">NIC</a>.
 
 ### Citation:
 
