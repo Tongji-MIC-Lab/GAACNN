@@ -12,3 +12,6 @@
 python setup.py build
 python setup.py install
 ```
+
+This code is derived from <a href="https://github.com/NJUVISION/NIC">NIC</a>.
+
